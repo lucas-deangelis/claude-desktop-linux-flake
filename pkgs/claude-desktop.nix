@@ -126,7 +126,7 @@ in
 
     meta = with lib; {
       description = "Claude Desktop for Linux";
-      license = licenses.unfree;
+      license = licenses.mit;
       platforms = platforms.unix;
       sourceProvenance = with sourceTypes; [binaryNativeCode];
       mainProgram = pname;
